@@ -2,9 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # Created by Martin Kupec
 
-EAPI=4
+EAPI=5
 
-inherit eutils python autotools
+PYTHON_COMPAT=( python{2_7,3_3,3_4,3_5,3_6} )
+inherit eutils python-any-r1 autotools
 
 DESCRIPTION="Cloud file syncing software"
 HOMEPAGE="http://www.seafile.com"
