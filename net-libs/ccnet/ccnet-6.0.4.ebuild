@@ -37,7 +37,6 @@ AUTOTOOLS_AUTORECONF=1
 
 PATCHES=(
 	"${FILESDIR}"/libccnet.pc.patch
-	"${FILESDIR}"/0001-Add-autoconfiguration-for-libjansson.patch
 )
 
 src_configure() {
