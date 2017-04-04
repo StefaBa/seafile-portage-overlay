@@ -20,8 +20,7 @@ DEPEND=">=net-misc/seafile-${PV}[client] dev-libs/jansson >=dev-qt/qtcore-4.8.5"
 RDEPEND=""
 
 pkg_setup() {
-	python_set_active_version 2
-	python_pkg_setup
+	python-any-r1_pkg_setup
 }
 
 src_compile() {
